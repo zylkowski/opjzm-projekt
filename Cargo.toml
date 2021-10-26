@@ -1,0 +1,15 @@
+[package]
+name = "opjzm-projekt"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+image = { version = "0.23", default-features = false, features = ["png"] }
+plotters = "0.3.1"
+glium = "0.30"
+egui = "0.14.2"
+epi = "0.14.0"
+epaint = "0.14.0"
+egui_glium = "0.14.0"
